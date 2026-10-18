@@ -1,5 +1,4 @@
 <?php
-// Optional: set $navCtaText / $navCtaHref before including to change the button.
 $navCtaText = $navCtaText ?? 'Order Online';
 $navCtaHref = $navCtaHref ?? 'login.php';
 ?>
