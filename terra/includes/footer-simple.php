@@ -1,4 +1,3 @@
-<!-- Footer (login / register) -->
 <footer>
   <div class="container">
     <div class="copyright">
