@@ -1,8 +1,4 @@
 <?php
-// Variables a page can set before including this file:
-//   $pageTitle  - text for <title>
-//   $bodyClass  - optional class on <body> (e.g. "auth-page")
-//   $extraCss   - optional extra stylesheet (e.g. "css/forms.css")
 $pageTitle = $pageTitle ?? 'Terra Coffee Co. — Small-Batch Roastery';
 $bodyClass = $bodyClass ?? '';
 $extraCss  = $extraCss  ?? '';
