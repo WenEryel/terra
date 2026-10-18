@@ -1,0 +1,135 @@
+/* Auth section */
+    .auth-section {
+      flex: 1;
+      padding: 70px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .auth-heading {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .auth-heading h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .auth-heading p {
+      color: #6B5D4F;
+      font-size: 1.05rem;
+    }
+
+    .auth-card {
+      background-color: var(--cloud);
+      border-radius: 8px;
+      padding: 36px 40px;
+      box-shadow: 0 6px 24px rgba(59, 42, 32, 0.08);
+    }
+
+    .bean-field {
+      margin-bottom: 20px;
+    }
+
+    .bean-field label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--espresso);
+    }
+
+    .bean-field input {
+      width: 100%;
+      padding: 12px 14px;
+      font-size: 1rem;
+      font-family: inherit;
+      border: 1.5px solid #D8CBB8;
+      border-radius: 4px;
+      background-color: #ffffff;
+      color: var(--ink);
+    }
+
+    .bean-field input:focus {
+      outline: 3px solid var(--rust);
+      outline-offset: 1px;
+      border-color: var(--rust);
+    }
+
+    .bean-field input.error {
+      border-color: #B3261E;
+      outline: none;
+    }
+
+    .bean-field label.error {
+      display: block;
+      color: #B3261E;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 6px;
+    }
+
+    .order-options {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      font-size: 0.9rem;
+    }
+
+    .order-options label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 400;
+      color: var(--ink);
+    }
+
+    .btn-roast-full {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      font-size: 1rem;
+    }
+
+    .form-feedback {
+      margin-top: 16px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-align: center;
+      min-height: 1.2em;
+    }
+
+    .form-feedback.is-error {
+      color: #B3261E;
+    }
+
+    .form-feedback.is-success {
+      color: #1A7F37;
+    }
+
+    .account-switch {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6B5D4F;
+    }
+
+    .account-switch a {
+      color: var(--rust);
+      font-weight: 700;
+    }
+
+    .account-switch a:hover {
+      text-decoration: underline;
+    }
+
+.bean-field-hint { font-size: 0.8rem; color: #8A7A68; margin-top: 4px; }
+.fine-print { font-size: 0.8rem; color: #8A7A68; margin-top: 20px; line-height: 1.5; text-align: center; }
+
+/* Page shell for login/register */
+body.auth-page { min-height: 100vh; display: flex; flex-direction: column; }
+body.auth-page footer { padding: 40px 0 24px; }
+body.auth-page footer .copyright { border-top: none; margin: 0; padding: 0; text-align: center; }
